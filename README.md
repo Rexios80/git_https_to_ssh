@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+1Password finally made it easy to set up SSH authentication and commit signing, but I have a ton of repos already cloned with HTTPS. This simple script will translate all HTTPS remotes to SSH remotes for you. The working directory is kind of hard coded. Just change it to whatever you need. All of the repos in the working directory will be converted.
